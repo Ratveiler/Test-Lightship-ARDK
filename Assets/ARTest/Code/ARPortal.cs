@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.XR.ARFoundation;
 
 namespace Core
 {
@@ -9,7 +7,6 @@ namespace Core
         [SerializeField] private Camera _camera;
         [SerializeField] private Transform _distancePoint;
         [SerializeField] private float _checkDistance = 1f;
-        private ARSession _arSession;
 
         public void Initialize(Camera camera)
         {

@@ -38,7 +38,7 @@ namespace Core
 
         private void DisablePortal()
         {
-            _portal.gameObject.SetActive(false);
+            _portal.transform.position += Vector3.back;
             _portal = null;
         }
 
